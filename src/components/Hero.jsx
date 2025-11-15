@@ -1,4 +1,3 @@
-import React from 'react';
 import profilepic from '../assets/profpic.png';
 import { TypeAnimation } from 'react-type-animation';
 import ShinyEffect from './ShinyEffect';
@@ -7,20 +6,6 @@ import {
   AiOutlineInstagram,
   AiOutlineLinkedin,
 } from 'react-icons/ai';
-import {
-  DiHtml5,
-  DiCss3,
-  DiJavascript1,
-  DiRubyRough,
-  DiRor,
-  DiPython,
-  DiDjango,
-  DiPhp,
-  DiLaravel,
-  DiIllustrator,
-  DiPhotoshop,
-  DiReact,
-} from 'react-icons/di';
 import { motion } from 'framer-motion';
 import { FaWhatsappSquare } from 'react-icons/fa';
 
@@ -69,7 +54,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className='text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6'
           >
-            I'm a passionate developer with over 3 years of experience
+            I&apos;m a passionate developer with over 3 years of experience
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -140,28 +125,6 @@ const Hero = () => {
           transition={{ duration: 1 }}
         />
       </div>
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 1, delay: 2 }}
-        className='flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24'
-      >
-        <p className='text-gray-200 mr-6'>My tech stack</p>
-        <DiRubyRough className='text-red-500 mx-2' />
-        <DiRor className='text-red-600 mx-2' />
-        <DiHtml5 className='text-orange-600 mx-2' />
-        <DiCss3 className='text-blue-500 mx-2' />
-        <DiJavascript1 className='text-yellow-400 mx-2' />
-        <DiPython className='text-yellow-400 mx-2' />
-        <DiDjango className='text-green-600 mx-2' />
-        <DiPhp className='text-purple-500 mx-2' />
-        <DiLaravel className='text-red-600 mx-2' />
-        <DiReact className='text-blue-500 mx-2' />
-        <DiIllustrator className='text-yellow-700 mx-2' />
-        <DiPhotoshop className='text-blue-600 mx-2' />
-      </motion.div>
 
       <div className='absolute inset-0 hidden md:block'>
         <ShinyEffect left={0} top={0} size={1400} />

@@ -1,6 +1,3 @@
-import React from 'react'
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
-import { motion } from "framer-motion"
 import Reveal from "./Reveal"
 
 
@@ -45,7 +42,7 @@ const Contact = () => {
           id='form'
         >
           <p className='text-gray-100 font-bold text-xl mb-2'>
-            Let's connect!
+            Let&apos;s connect!
           </p>
           <input
             type="text"
