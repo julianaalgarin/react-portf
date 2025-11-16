@@ -50,12 +50,12 @@ const Skills = () => {
         transition: {
           repeat: Infinity,
           repeatType: "loop",
-          duration: 25,
+          duration: 30, // Aumenté la duración para más elementos
           ease: "linear",
         },
       });
     }
-  }, [isPaused, controls]);
+  }, [isPaused, controls, allSkills.length]);
 
   useEffect(() => {
     // Iniciar animación al montar el componente
@@ -64,11 +64,11 @@ const Skills = () => {
       transition: {
         repeat: Infinity,
         repeatType: "loop",
-        duration: 25,
+        duration: 30, // Aumenté la duración para más elementos
         ease: "linear",
       },
     });
-  }, [controls]);
+  }, [controls, allSkills.length]);
 
   return (
     <div className='max-w-[1200px] mx-auto flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12' id="skills">

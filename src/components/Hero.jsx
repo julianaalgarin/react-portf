@@ -1,5 +1,5 @@
 import React from 'react';
-import profilepic from '../assets/profpic.png';
+import profilepic from '../assets/first_icon.png';
 import { TypeAnimation } from 'react-type-animation';
 import ShinyEffect from './ShinyEffect';
 import {
@@ -12,7 +12,7 @@ import { FaWhatsappSquare } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <div className='mt-24 max-w-[1200px] mx-auto relative'>
+    <div className='mt-24 max-w-[1200px] mx-auto relative pb-16 md:pb-24'>
       <div className='grid md:grid-cols-2 place-items-center gap-8'>
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -51,7 +51,7 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 1 }}
-            className='text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6'
+            className='text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-8'
           >
             I&apos;m a passionate developer with over 2 years of experience
           </motion.p>
@@ -117,7 +117,7 @@ const Hero = () => {
 
         <motion.img
           src={profilepic}
-          className='w-[300px] md:w-[450px]'
+          className='w-[300px] md:w-[450px] rounded-lg shadow-2xl'
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
