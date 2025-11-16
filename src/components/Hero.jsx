@@ -1,3 +1,4 @@
+import React from 'react';
 import profilepic from '../assets/profpic.png';
 import { TypeAnimation } from 'react-type-animation';
 import ShinyEffect from './ShinyEffect';
@@ -21,9 +22,7 @@ const Hero = () => {
         >
           <TypeAnimation
             sequence={[
-              'Fullstack dev',
-              1000,
-              'Dev teacher',
+              'FullStack dev',
               1000,
               'Backend developer.',
               1000,
@@ -54,7 +53,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className='text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6'
           >
-            I&apos;m a passionate developer with over 3 years of experience
+            I&apos;m a passionate developer with over 2 years of experience
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 50 }}

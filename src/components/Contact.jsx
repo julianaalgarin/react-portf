@@ -10,7 +10,7 @@ const Contact = () => {
           <div className='text-gray-300 my-3'>
             <h3 className='text-4xl font-semibold mb-5'>About <span>Me</span></h3>
             <p className='text-justify leading-7 w-11/12 mx-auto'>
-            Holaa, Soy Juliana, Desarrolladora con más de un año de experiencia práctica en programación y más de 3 años de trayectoria profesional en marketing, ventas y atención al cliente. Me especializo en crear soluciones web escalables, fáciles de usar y visualmente atractivas, con un fuerte enfoque en el rendimiento, la usabilidad y las prácticas modernas de desarrollo. Mi experiencia diversa me permite cerrar la brecha entre la tecnología y las necesidades del negocio, entregando soluciones que no solo cumplen con los requisitos técnicos, sino que también se alinean con las expectativas de los usuarios y los objetivos organizacionales.
+            Hello, I'm Juliana, a Developer with over a year of hands-on programming experience and more than 3 years of professional background in marketing, sales, and customer service. I specialize in creating scalable, user-friendly, and visually appealing web solutions with a strong focus on performance, usability, and modern development practices. My diverse experience allows me to bridge the gap between technology and business needs, delivering solutions that not only meet technical requirements but also align with user expectations and organizational objectives.
             </p>
           </div>
           <div className='flex mt-10 items-center gap-7'>
