@@ -10,56 +10,55 @@ import Reveal from './Reveal';
 const projects = [
     {
       img: project1,
-      title: "Project #1",
+      title: "Fénix ",
       description: "UI for frontend development using React.",
       links: {
-        site: "#",
+        site: "https://fenixbgsas.com/",
         github: "#",
       },
     },
     {
       img: project2,
-      title: "Project #2",
+      title: "Asosubastas",
       description: "A fullstack application built with Node.js and MongoDB.",
       links: {
-        site: "#",
+        site: "https://asosubastas.com/",
         github: "#",
       },
     },
     {
       img: project3,
-      title: "Project #3",
+      title: "Vacunas",
       description: "A fullstack application built with Node.js and MongoDB.",
       links: {
-        site: "#",
-        github: "#",
+        github: "https://github.com/julianaalgarin/proyecto_vacunas"
       },
     },
     {
       img: project4,
-      title: "Project #4",
+      title: "App Climática",
       description: "An e-commerce platform with various features.",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/julianaalgarin/weatherms",
       },
     },
     {
       img: project5,
-      title: "Project #5",
+      title: "Deportech",
       description: "A mobile-friendly application using React Native.",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/julianaalgarin/deportech",
       },
     },
     {
       img: project6,
-      title: "Project #6",
+      title: "Post Ventas",
       description: "A data visualization project using D3.js and other libraries.",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/julianaalgarin/post-react",
       },
     },
   ]

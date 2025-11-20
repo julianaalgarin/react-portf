@@ -18,8 +18,8 @@ const experiences = [
     description: 'Description of your experience in this company.',
   },
   {
-    company: 'Fourth Company',
-    period: '2020 - Present',
+    company: 'BG3 SAS',
+    period: '2024 - Present',
     description: 'Description of your experience in this company.',
   },
 ]
