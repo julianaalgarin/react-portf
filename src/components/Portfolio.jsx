@@ -1,9 +1,11 @@
-import project1 from "../assets/project1.png"
-import project2 from "../assets/project2.png"
-import project3 from "../assets/project3.png"
-import project4 from "../assets/project4.png"
-import project5 from "../assets/project5.png"
-import project6 from "../assets/project6.png"
+import project1 from "../assets/fenix.png"
+import project2 from "../assets/asosubastas.png"
+import project3 from "../assets/vacunas.png"
+import project4 from "../assets/clima.png"
+import project5 from "../assets/deportech.png"
+import project6 from "../assets/pos-react.png"
+import project6 from "../assets/spotify-clone.png"
+import project6 from "../assets/biblioteca.png"
 import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
@@ -59,6 +61,24 @@ const projects = [
       links: {
         site: "#",
         github: "https://github.com/julianaalgarin/post-react",
+      },
+    },
+    {
+      img: project6,
+      title: "Spotify Clone",
+      description: "A data visualization project using D3.js and other libraries.",
+      links: {
+        site: "#",
+        github: "https://github.com/julianaalgarin/django_spotify_clone",
+      },
+    },
+    {
+      img: project6,
+      title: "Biblioteca Publica",
+      description: "A data visualization project using D3.js and other libraries.",
+      links: {
+        site: "#",
+        github: "https://github.com/julianaalgarin/django_library",
       },
     },
   ]
