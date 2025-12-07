@@ -3,24 +3,21 @@ import Reveal from './Reveal'
 
 const experiences = [
   {
-    company: 'First Company',
-    period: '2020 - Present',
-    description: 'Description of your experience in this company.',
+    company: 'Costumer Operation Sucess',
+    period: '2023',
+    description: 'Costumer support role focused on resolving client issues and ensuring satisfaction.',
   },
   {
-    company: 'Second Company',
-    period: '2020 - Present',
-    description: 'Description of your experience in this company.',
+    company: 'FÉNIX BGSAS',
+    period: '2024',
+    description: 'software developer intern focused on frontend development using React.',
   },
-  {
-    company: 'Third Company',
-    period: '2020 - Present',
-    description: 'Description of your experience in this company.',
-  },
+
+  
   {
     company: 'BG3 SAS',
     period: '2024 - Present',
-    description: 'Description of your experience in this company.',
+    description: 'sofware developer, marketing and costumer support for a software development company.',
   },
 ]
 
